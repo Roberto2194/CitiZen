@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>61877734761-5ohbh4hv355p6uuecnl6dtm5cvajrugo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.61877734761-5ohbh4hv355p6uuecnl6dtm5cvajrugo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAVbN7CiCvGtt1WBL0iyiNV62OIJF81lEE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>61877734761</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.robocorp.CitiZen</string>
+	<key>PROJECT_ID</key>
+	<string>citizen-7734d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>citizen-7734d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:61877734761:ios:8110508e95b47f4b4801f8</string>
+	<key>DATABASE_URL</key>
+	<string>https://citizen-7734d.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0905BD2472869900A85CC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905BC2472869900A85CC1 /* HomeViewController.swift */; };
+		2A0905C12473F10D00A85CC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905C02473F10D00A85CC1 /* User.swift */; };
+		2A0905CD247515AB00A85CC1 /* CallToActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905CC247515AB00A85CC1 /* CallToActionViewController.swift */; };
+		2A0905D1247515FD00A85CC1 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905D0247515FD00A85CC1 /* ChartViewController.swift */; };
+		2A0905D52475178700A85CC1 /* AddCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905D42475178700A85CC1 /* AddCollectionViewCell.swift */; };
+		2A0905D7247517A800A85CC1 /* ChallengeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905D6247517A800A85CC1 /* ChallengeCollectionViewCell.swift */; };
+		2A0905D924751B6400A85CC1 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905D824751B6400A85CC1 /* Challenge.swift */; };
+		2A0905DD2475847500A85CC1 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905DC2475847500A85CC1 /* TitleTableViewCell.swift */; };
+		2A0905DF2475862400A85CC1 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905DE2475862400A85CC1 /* DescriptionTableViewCell.swift */; };
+		2A0905E12475863500A85CC1 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905E02475863500A85CC1 /* ImageTableViewCell.swift */; };
+		2A0905E32475864400A85CC1 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905E22475864400A85CC1 /* TopicTableViewCell.swift */; };
+		2A0905E52475865100A85CC1 /* benefitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905E42475865100A85CC1 /* benefitTableViewCell.swift */; };
+		2A0905E72475866300A85CC1 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0905E62475866300A85CC1 /* DateTableViewCell.swift */; };
+		2A0A72C5247FBE7D00EE5672 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A72C4247FBE7D00EE5672 /* SettingsTableViewController.swift */; };
+		2A0A72C7247FBF1700EE5672 /* JoinedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A72C6247FBF1700EE5672 /* JoinedTableViewCell.swift */; };
+		2A0A72C9247FBF2C00EE5672 /* CreatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A72C8247FBF2C00EE5672 /* CreatedTableViewCell.swift */; };
+		2A3454662476C08000551F13 /* CreateActionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3454652476C08000551F13 /* CreateActionTableViewController.swift */; };
+		2A4C76B2246BDE7500A398EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C76B1246BDE7500A398EF /* AppDelegate.swift */; };
+		2A4C76B4246BDE7500A398EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C76B3246BDE7500A398EF /* SceneDelegate.swift */; };
+		2A4C76B6246BDE7500A398EF /* ProfileCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C76B5246BDE7500A398EF /* ProfileCreateViewController.swift */; };
+		2A4C76B9246BDE7500A398EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C76B7246BDE7500A398EF /* Main.storyboard */; };
+		2A4C76BC246BDE7500A398EF /* citZen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C76BA246BDE7500A398EF /* citZen.xcdatamodeld */; };
+		2A4C76BE246BDE7800A398EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C76BD246BDE7800A398EF /* Assets.xcassets */; };
+		2A4C76C1246BDE7800A398EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C76BF246BDE7800A398EF /* LaunchScreen.storyboard */; };
+		2A4FBCE2249CFB9F009E03C3 /* videoTutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FBCE1249CFB9E009E03C3 /* videoTutorial.mp4 */; };
+		2A5CA132247EB88700052434 /* CompleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CA131247EB88700052434 /* CompleteTableViewController.swift */; };
+		2A5CA136247F98CF00052434 /* AchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CA135247F98CF00052434 /* AchieveViewController.swift */; };
+		2A9CD66A2479572D00747E51 /* UserChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CD6692479572D00747E51 /* UserChartTableViewCell.swift */; };
+		2AB59416247E6CE300A60B0A /* ChallengeInProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB59415247E6CE300A60B0A /* ChallengeInProfileViewController.swift */; };
+		2AB59419247E6DC100A60B0A /* HomeChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB59418247E6DC100A60B0A /* HomeChallengeTableViewCell.swift */; };
+		2ABFF045247FB8CD0094DC2A /* AchieveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFF044247FB8CD0094DC2A /* AchieveCollectionViewCell.swift */; };
+		2ABFF047247FB9760094DC2A /* rewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFF046247FB9760094DC2A /* rewardViewController.swift */; };
+		2ABFF049247FB9CF0094DC2A /* RewardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFF048247FB9CF0094DC2A /* RewardCollectionViewCell.swift */; };
+		2ABFF04B247FBB3C0094DC2A /* AchieveProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFF04A247FBB3C0094DC2A /* AchieveProfileViewController.swift */; };
+		2ABFF04D247FBBB20094DC2A /* CreatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFF04C247FBBB20094DC2A /* CreatedViewController.swift */; };
+		2AD49361247FC2C70062C7B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD49360247FC2C70062C7B5 /* LoginViewController.swift */; };
+		2AD595A9246EE60400A69129 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AD595A8246EE60400A69129 /* GoogleService-Info.plist */; };
+		2ADD4B24247CF530008E927E /* JoinChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD4B23247CF530008E927E /* JoinChallengeViewController.swift */; };
+		2ADEFEB424726FCD005DF81C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADEFEB324726FCD005DF81C /* SignUpViewController.swift */; };
+		2AEDDC83247A8F3E00671C46 /* ProfileUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDDC82247A8F3E00671C46 /* ProfileUserViewController.swift */; };
+		9EF5DAAF0F69D08438159ACB /* Pods_citZen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E80684EECFA40556619B43 /* Pods_citZen.framework */; };
+		B4274E3824942623007A1936 /* ChartBadgesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4274E3724942623007A1936 /* ChartBadgesCollectionViewCell.swift */; };
+		B48225262488F55700E64169 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48225252488F55700E64169 /* FollowViewController.swift */; };
+		B48225282488F60900E64169 /* FollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48225272488F60900E64169 /* FollowTableViewCell.swift */; };
+		B49F9C3D2493DB4B00304276 /* ProfileCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F9C3C2493DB4B00304276 /* ProfileCollectionCell.swift */; };
+		B4AB22C9248BEB1E00860BEF /* ChartRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB22C8248BEB1E00860BEF /* ChartRewardsViewController.swift */; };
+		B4D2A3D6249103FF005BDD86 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D2A3D5249103FF005BDD86 /* OnBoardingCollectionViewCell.swift */; };
+		B4D2A3D92491099C005BDD86 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D2A3D82491099C005BDD86 /* OnBoardingViewController.swift */; };
+		B4D2A3DB24910CE7005BDD86 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D2A3DA24910CE7005BDD86 /* Page.swift */; };
+		EE0F96F1248A5F5800C03080 /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F96F0248A5F5800C03080 /* EmailVerificationViewController.swift */; };
+		EE1D91A624851065004B7E5C /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1D91A524851065004B7E5C /* VerifyViewController.swift */; };
+		EE84B44E24893AA700E95098 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84B44D24893AA700E95098 /* ForgotPasswordViewController.swift */; };
+		EE90B192248F910800B5DE00 /* LoginAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90B191248F910800B5DE00 /* LoginAnimationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E80684EECFA40556619B43 /* Pods_citZen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citZen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0905BC2472869900A85CC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A0905C02473F10D00A85CC1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A0905CC247515AB00A85CC1 /* CallToActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToActionViewController.swift; sourceTree = "<group>"; };
+		2A0905D0247515FD00A85CC1 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		2A0905D42475178700A85CC1 /* AddCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A0905D6247517A800A85CC1 /* ChallengeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A0905D824751B6400A85CC1 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		2A0905DC2475847500A85CC1 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		2A0905DE2475862400A85CC1 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		2A0905E02475863500A85CC1 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		2A0905E22475864400A85CC1 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		2A0905E42475865100A85CC1 /* benefitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benefitTableViewCell.swift; sourceTree = "<group>"; };
+		2A0905E62475866300A85CC1 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		2A0A72C4247FBE7D00EE5672 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		2A0A72C6247FBF1700EE5672 /* JoinedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinedTableViewCell.swift; sourceTree = "<group>"; };
+		2A0A72C8247FBF2C00EE5672 /* CreatedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedTableViewCell.swift; sourceTree = "<group>"; };
+		2A3454652476C08000551F13 /* CreateActionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActionTableViewController.swift; sourceTree = "<group>"; };
+		2A4C76AE246BDE7500A398EF /* CitiZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4C76B1246BDE7500A398EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A4C76B3246BDE7500A398EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A4C76B5246BDE7500A398EF /* ProfileCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreateViewController.swift; sourceTree = "<group>"; };
+		2A4C76B8246BDE7500A398EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A4C76BB246BDE7500A398EF /* citZen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = citZen.xcdatamodel; sourceTree = "<group>"; };
+		2A4C76BD246BDE7800A398EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A4C76C0246BDE7800A398EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A4C76C2246BDE7800A398EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4FBCE1249CFB9E009E03C3 /* videoTutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoTutorial.mp4; sourceTree = "<group>"; };
+		2A5CA131247EB88700052434 /* CompleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTableViewController.swift; sourceTree = "<group>"; };
+		2A5CA135247F98CF00052434 /* AchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveViewController.swift; sourceTree = "<group>"; };
+		2A9CD6692479572D00747E51 /* UserChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChartTableViewCell.swift; sourceTree = "<group>"; };
+		2AB59415247E6CE300A60B0A /* ChallengeInProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeInProfileViewController.swift; sourceTree = "<group>"; };
+		2AB59418247E6DC100A60B0A /* HomeChallengeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChallengeTableViewCell.swift; sourceTree = "<group>"; };
+		2ABE5024247BB5DE008D894D /* CitiZen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CitiZen.entitlements; sourceTree = "<group>"; };
+		2ABFF044247FB8CD0094DC2A /* AchieveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveCollectionViewCell.swift; sourceTree = "<group>"; };
+		2ABFF046247FB9760094DC2A /* rewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardViewController.swift; sourceTree = "<group>"; };
+		2ABFF048247FB9CF0094DC2A /* RewardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCollectionViewCell.swift; sourceTree = "<group>"; };
+		2ABFF04A247FBB3C0094DC2A /* AchieveProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveProfileViewController.swift; sourceTree = "<group>"; };
+		2ABFF04C247FBBB20094DC2A /* CreatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedViewController.swift; sourceTree = "<group>"; };
+		2AD49360247FC2C70062C7B5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2AD595A8246EE60400A69129 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2ADD4B23247CF530008E927E /* JoinChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinChallengeViewController.swift; sourceTree = "<group>"; };
+		2ADEFEB324726FCD005DF81C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = citZen/Controller/Authentication/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		2AEDDC82247A8F3E00671C46 /* ProfileUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserViewController.swift; sourceTree = "<group>"; };
+		A61A8C0A1B00F99AF9A6EF52 /* Pods-citZen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citZen.release.xcconfig"; path = "Target Support Files/Pods-citZen/Pods-citZen.release.xcconfig"; sourceTree = "<group>"; };
+		A62B49FD1FEA222859DBE54D /* Pods-citZen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citZen.debug.xcconfig"; path = "Target Support Files/Pods-citZen/Pods-citZen.debug.xcconfig"; sourceTree = "<group>"; };
+		B4274E3724942623007A1936 /* ChartBadgesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBadgesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B48225252488F55700E64169 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		B48225272488F60900E64169 /* FollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTableViewCell.swift; sourceTree = "<group>"; };
+		B49F9C3C2493DB4B00304276 /* ProfileCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionCell.swift; sourceTree = "<group>"; };
+		B4AB22C8248BEB1E00860BEF /* ChartRewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRewardsViewController.swift; sourceTree = "<group>"; };
+		B4D2A3D5249103FF005BDD86 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4D2A3D82491099C005BDD86 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		B4D2A3DA24910CE7005BDD86 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		EE0F96F0248A5F5800C03080 /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
+		EE1D91A524851065004B7E5C /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		EE84B44D24893AA700E95098 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EE90B191248F910800B5DE00 /* LoginAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A4C76AB246BDE7500A398EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF5DAAF0F69D08438159ACB /* Pods_citZen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224B5244EC56C77E66A13DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E80684EECFA40556619B43 /* Pods_citZen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A0905C92475154000A85CC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C76BD246BDE7800A398EF /* Assets.xcassets */,
+				2A0905C02473F10D00A85CC1 /* User.swift */,
+				2A0905D824751B6400A85CC1 /* Challenge.swift */,
+				B4D2A3DA24910CE7005BDD86 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A0905CA2475154600A85CC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D2A3D4249103AD005BDD86 /* OnBoarding */,
+				2AB59417247E6DA400A60B0A /* Home */,
+				2A2990EF247D0F16005177B3 /* callToActionCell */,
+				2A2990EE247D0EF4005177B3 /* AddChallenge */,
+				2A2990ED247D0EC7005177B3 /* Chart */,
+				2A2990EC247D0EBA005177B3 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A0905CB2475154B00A85CC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C76B3246BDE7500A398EF /* SceneDelegate.swift */,
+				2A4C76B1246BDE7500A398EF /* AppDelegate.swift */,
+				2A2990E6247D0DAA005177B3 /* Authentication */,
+				2A2990E7247D0DDE005177B3 /* callToAction */,
+				2A2990E9247D0E3A005177B3 /* chart */,
+				B4D2A3D72491041F005BDD86 /* OnBoarding */,
+				2A2990EB247D0E86005177B3 /* Profile */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A2990E6247D0DAA005177B3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C76B5246BDE7500A398EF /* ProfileCreateViewController.swift */,
+				2AD49360247FC2C70062C7B5 /* LoginViewController.swift */,
+				EE84B44D24893AA700E95098 /* ForgotPasswordViewController.swift */,
+				EE0F96F0248A5F5800C03080 /* EmailVerificationViewController.swift */,
+				2ADEFEB324726FCD005DF81C /* SignUpViewController.swift */,
+				EE1D91A524851065004B7E5C /* VerifyViewController.swift */,
+				EE90B191248F910800B5DE00 /* LoginAnimationViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2A2990E7247D0DDE005177B3 /* callToAction */ = {
+			isa = PBXGroup;
+			children = (
+				2A0905CC247515AB00A85CC1 /* CallToActionViewController.swift */,
+				2A3454652476C08000551F13 /* CreateActionTableViewController.swift */,
+				2ADD4B23247CF530008E927E /* JoinChallengeViewController.swift */,
+				2A5CA131247EB88700052434 /* CompleteTableViewController.swift */,
+			);
+			path = callToAction;
+			sourceTree = "<group>";
+		};
+		2A2990E9247D0E3A005177B3 /* chart */ = {
+			isa = PBXGroup;
+			children = (
+				2A0905D0247515FD00A85CC1 /* ChartViewController.swift */,
+				B4AB22C8248BEB1E00860BEF /* ChartRewardsViewController.swift */,
+				2AEDDC82247A8F3E00671C46 /* ProfileUserViewController.swift */,
+				2ABFF04A247FBB3C0094DC2A /* AchieveProfileViewController.swift */,
+				2ABFF04C247FBBB20094DC2A /* CreatedViewController.swift */,
+			);
+			path = chart;
+			sourceTree = "<group>";
+		};
+		2A2990EB247D0E86005177B3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2A0905BC2472869900A85CC1 /* HomeViewController.swift */,
+				2AB59415247E6CE300A60B0A /* ChallengeInProfileViewController.swift */,
+				2A5CA135247F98CF00052434 /* AchieveViewController.swift */,
+				2ABFF046247FB9760094DC2A /* rewardViewController.swift */,
+				2A0A72C4247FBE7D00EE5672 /* SettingsTableViewController.swift */,
+				B48225252488F55700E64169 /* FollowViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2A2990EC247D0EBA005177B3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C76B7246BDE7500A398EF /* Main.storyboard */,
+				2A4C76BF246BDE7800A398EF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2A2990ED247D0EC7005177B3 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				2A9CD6692479572D00747E51 /* UserChartTableViewCell.swift */,
+				2A0A72C6247FBF1700EE5672 /* JoinedTableViewCell.swift */,
+				2A0A72C8247FBF2C00EE5672 /* CreatedTableViewCell.swift */,
+				B4274E3724942623007A1936 /* ChartBadgesCollectionViewCell.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		2A2990EE247D0EF4005177B3 /* AddChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				2A0905DC2475847500A85CC1 /* TitleTableViewCell.swift */,
+				2A0905DE2475862400A85CC1 /* DescriptionTableViewCell.swift */,
+				2A0905E02475863500A85CC1 /* ImageTableViewCell.swift */,
+				2A0905E62475866300A85CC1 /* DateTableViewCell.swift */,
+				2A0905E22475864400A85CC1 /* TopicTableViewCell.swift */,
+				2A0905E42475865100A85CC1 /* benefitTableViewCell.swift */,
+			);
+			path = AddChallenge;
+			sourceTree = "<group>";
+		};
+		2A2990EF247D0F16005177B3 /* callToActionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2A0905D42475178700A85CC1 /* AddCollectionViewCell.swift */,
+				2A0905D6247517A800A85CC1 /* ChallengeCollectionViewCell.swift */,
+			);
+			path = callToActionCell;
+			sourceTree = "<group>";
+		};
+		2A4C76A5246BDE7500A398EF = {
+			isa = PBXGroup;
+			children = (
+				2A4C76B0246BDE7500A398EF /* citZen */,
+				2A4C76AF246BDE7500A398EF /* Products */,
+				91B356CBEF7CC577565DBCF4 /* Pods */,
+				224B5244EC56C77E66A13DE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A4C76AF246BDE7500A398EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C76AE246BDE7500A398EF /* CitiZen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A4C76B0246BDE7500A398EF /* citZen */ = {
+			isa = PBXGroup;
+			children = (
+				2ABE5024247BB5DE008D894D /* CitiZen.entitlements */,
+				2A0905CB2475154B00A85CC1 /* Controller */,
+				2A0905CA2475154600A85CC1 /* View */,
+				2A0905C92475154000A85CC1 /* Model */,
+				2A4C76C2246BDE7800A398EF /* Info.plist */,
+				2AD595A8246EE60400A69129 /* GoogleService-Info.plist */,
+				2A4C76BA246BDE7500A398EF /* citZen.xcdatamodeld */,
+			);
+			path = citZen;
+			sourceTree = "<group>";
+		};
+		2AB59417247E6DA400A60B0A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AB59418247E6DC100A60B0A /* HomeChallengeTableViewCell.swift */,
+				2ABFF044247FB8CD0094DC2A /* AchieveCollectionViewCell.swift */,
+				2ABFF048247FB9CF0094DC2A /* RewardCollectionViewCell.swift */,
+				B48225272488F60900E64169 /* FollowTableViewCell.swift */,
+				B49F9C3C2493DB4B00304276 /* ProfileCollectionCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		91B356CBEF7CC577565DBCF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62B49FD1FEA222859DBE54D /* Pods-citZen.debug.xcconfig */,
+				A61A8C0A1B00F99AF9A6EF52 /* Pods-citZen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4D2A3D4249103AD005BDD86 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FBCE1249CFB9E009E03C3 /* videoTutorial.mp4 */,
+				B4D2A3D5249103FF005BDD86 /* OnBoardingCollectionViewCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		B4D2A3D72491041F005BDD86 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				B4D2A3D82491099C005BDD86 /* OnBoardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A4C76AD246BDE7500A398EF /* citZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4C76C5246BDE7800A398EF /* Build configuration list for PBXNativeTarget "citZen" */;
+			buildPhases = (
+				308AD69545CA94388069817B /* [CP] Check Pods Manifest.lock */,
+				2A4C76AA246BDE7500A398EF /* Sources */,
+				2A4C76AB246BDE7500A398EF /* Frameworks */,
+				2A4C76AC246BDE7500A398EF /* Resources */,
+				25773A3E848117C2E8F8356F /* [CP] Copy Pods Resources */,
+				89EC404571CF46D5600E736B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = citZen;
+			productName = citZen;
+			productReference = 2A4C76AE246BDE7500A398EF /* CitiZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A4C76A6246BDE7500A398EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Luigi Mazzarella";
+				TargetAttributes = {
+					2A4C76AD246BDE7500A398EF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A4C76A9246BDE7500A398EF /* Build configuration list for PBXProject "citZen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A4C76A5246BDE7500A398EF;
+			productRefGroup = 2A4C76AF246BDE7500A398EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4C76AD246BDE7500A398EF /* citZen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4C76AC246BDE7500A398EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4C76C1246BDE7800A398EF /* LaunchScreen.storyboard in Resources */,
+				2AD595A9246EE60400A69129 /* GoogleService-Info.plist in Resources */,
+				2A4FBCE2249CFB9F009E03C3 /* videoTutorial.mp4 in Resources */,
+				2A4C76BE246BDE7800A398EF /* Assets.xcassets in Resources */,
+				2A4C76B9246BDE7500A398EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25773A3E848117C2E8F8356F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308AD69545CA94388069817B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-citZen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89EC404571CF46D5600E736B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-citZen/Pods-citZen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4C76AA246BDE7500A398EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADEFEB424726FCD005DF81C /* SignUpViewController.swift in Sources */,
+				2A0905BD2472869900A85CC1 /* HomeViewController.swift in Sources */,
+				2A0905D52475178700A85CC1 /* AddCollectionViewCell.swift in Sources */,
+				2A0A72C5247FBE7D00EE5672 /* SettingsTableViewController.swift in Sources */,
+				2A0A72C9247FBF2C00EE5672 /* CreatedTableViewCell.swift in Sources */,
+				2A0905D924751B6400A85CC1 /* Challenge.swift in Sources */,
+				EE84B44E24893AA700E95098 /* ForgotPasswordViewController.swift in Sources */,
+				2A0905E32475864400A85CC1 /* TopicTableViewCell.swift in Sources */,
+				2A0905DD2475847500A85CC1 /* TitleTableViewCell.swift in Sources */,
+				2A4C76BC246BDE7500A398EF /* citZen.xcdatamodeld in Sources */,
+				2A9CD66A2479572D00747E51 /* UserChartTableViewCell.swift in Sources */,
+				2A5CA132247EB88700052434 /* CompleteTableViewController.swift in Sources */,
+				B4274E3824942623007A1936 /* ChartBadgesCollectionViewCell.swift in Sources */,
+				2AEDDC83247A8F3E00671C46 /* ProfileUserViewController.swift in Sources */,
+				B49F9C3D2493DB4B00304276 /* ProfileCollectionCell.swift in Sources */,
+				2A4C76B6246BDE7500A398EF /* ProfileCreateViewController.swift in Sources */,
+				2A3454662476C08000551F13 /* CreateActionTableViewController.swift in Sources */,
+				B48225282488F60900E64169 /* FollowTableViewCell.swift in Sources */,
+				EE90B192248F910800B5DE00 /* LoginAnimationViewController.swift in Sources */,
+				B4D2A3D6249103FF005BDD86 /* OnBoardingCollectionViewCell.swift in Sources */,
+				2AB59419247E6DC100A60B0A /* HomeChallengeTableViewCell.swift in Sources */,
+				2A5CA136247F98CF00052434 /* AchieveViewController.swift in Sources */,
+				2A0905E72475866300A85CC1 /* DateTableViewCell.swift in Sources */,
+				2ABFF04D247FBBB20094DC2A /* CreatedViewController.swift in Sources */,
+				2A0905D7247517A800A85CC1 /* ChallengeCollectionViewCell.swift in Sources */,
+				2A0905E52475865100A85CC1 /* benefitTableViewCell.swift in Sources */,
+				2A0905C12473F10D00A85CC1 /* User.swift in Sources */,
+				2A4C76B2246BDE7500A398EF /* AppDelegate.swift in Sources */,
+				B4D2A3D92491099C005BDD86 /* OnBoardingViewController.swift in Sources */,
+				2AD49361247FC2C70062C7B5 /* LoginViewController.swift in Sources */,
+				2A0905E12475863500A85CC1 /* ImageTableViewCell.swift in Sources */,
+				2ABFF045247FB8CD0094DC2A /* AchieveCollectionViewCell.swift in Sources */,
+				B4AB22C9248BEB1E00860BEF /* ChartRewardsViewController.swift in Sources */,
+				2A0905CD247515AB00A85CC1 /* CallToActionViewController.swift in Sources */,
+				EE0F96F1248A5F5800C03080 /* EmailVerificationViewController.swift in Sources */,
+				B4D2A3DB24910CE7005BDD86 /* Page.swift in Sources */,
+				2ABFF047247FB9760094DC2A /* rewardViewController.swift in Sources */,
+				2ADD4B24247CF530008E927E /* JoinChallengeViewController.swift in Sources */,
+				2ABFF04B247FBB3C0094DC2A /* AchieveProfileViewController.swift in Sources */,
+				B48225262488F55700E64169 /* FollowViewController.swift in Sources */,
+				EE1D91A624851065004B7E5C /* VerifyViewController.swift in Sources */,
+				2A4C76B4246BDE7500A398EF /* SceneDelegate.swift in Sources */,
+				2A0905DF2475862400A85CC1 /* DescriptionTableViewCell.swift in Sources */,
+				2A0905D1247515FD00A85CC1 /* ChartViewController.swift in Sources */,
+				2AB59416247E6CE300A60B0A /* ChallengeInProfileViewController.swift in Sources */,
+				2A0A72C7247FBF1700EE5672 /* JoinedTableViewCell.swift in Sources */,
+				2ABFF049247FB9CF0094DC2A /* RewardCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A4C76B7246BDE7500A398EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4C76B8246BDE7500A398EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A4C76BF246BDE7800A398EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4C76C0246BDE7800A398EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A4C76C3246BDE7800A398EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A4C76C4246BDE7800A398EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4C76C6246BDE7800A398EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62B49FD1FEA222859DBE54D /* Pods-citZen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = citZen/CitiZen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST6G2V5X62;
+				INFOPLIST_FILE = citZen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robocorp.CitiZen;
+				PRODUCT_NAME = CitiZen;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A4C76C7246BDE7800A398EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61A8C0A1B00F99AF9A6EF52 /* Pods-citZen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = citZen/CitiZen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST6G2V5X62;
+				INFOPLIST_FILE = citZen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robocorp.CitiZen;
+				PRODUCT_NAME = CitiZen;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4C76A9246BDE7500A398EF /* Build configuration list for PBXProject "citZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4C76C3246BDE7800A398EF /* Debug */,
+				2A4C76C4246BDE7800A398EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4C76C5246BDE7800A398EF /* Build configuration list for PBXNativeTarget "citZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4C76C6246BDE7800A398EF /* Debug */,
+				2A4C76C7246BDE7800A398EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A4C76BA246BDE7500A398EF /* citZen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A4C76BB246BDE7500A398EF /* citZen.xcdatamodel */,
+			);
+			currentVersion = 2A4C76BB246BDE7500A398EF /* citZen.xcdatamodel */;
+			path = citZen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A4C76A6246BDE7500A398EF /* Project object */;
+}
